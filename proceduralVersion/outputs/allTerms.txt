@@ -1,0 +1,1976 @@
+### ALL TERMS ###
+
+# 1
+Term       :দক্ষিণ
+Occurence  :11
+PWT        :16,1,2,1,4,2,6,1,3,1,1
+PWD        :38
+
+# 2
+Term       :কোরিয়ার
+Occurence  :5
+PWT        :16,2,6,1,1
+PWD        :26
+
+# 3
+Term       :ভূমিকা
+Occurence  :6
+PWT        :4,6,4,1,1,1
+PWD        :17
+
+# 4
+Term       :করেছে
+Occurence  :6
+PWT        :1,2,6,2,4,1
+PWD        :16
+
+# 5
+Term       :রহস্য
+Occurence  :1
+PWT        :16
+PWD        :16
+
+# 6
+Term       :কী
+Occurence  :1
+PWT        :16
+PWD        :16
+
+# 7
+Term       :সাফল্যের
+Occurence  :1
+PWT        :16
+PWD        :16
+
+# 8
+Term       :পরীক্ষা
+Occurence  :7
+PWT        :2,2,2,2,3,2,2
+PWD        :15
+
+# 9
+Term       :ও
+Occurence  :8
+PWT        :1,4,2,2,2,2,1,1
+PWD        :15
+
+# 10
+Term       :ক্ষেত্রে
+Occurence  :3
+PWT        :4,6,4
+PWD        :14
+
+# 11
+Term       :এবং
+Occurence  :8
+PWT        :2,4,2,1,1,1,1,1
+PWD        :13
+
+# 12
+Term       :এ
+Occurence  :4
+PWT        :4,4,2,2
+PWD        :12
+
+# 13
+Term       :করতে
+Occurence  :5
+PWT        :6,3,1,1,1
+PWD        :12
+
+# 14
+Term       :করার
+Occurence  :6
+PWT        :2,4,2,2,1,1
+PWD        :12
+
+# 15
+Term       :সরকারের
+Occurence  :5
+PWT        :2,6,1,1,1
+PWD        :11
+
+# 16
+Term       :কোরিয়া
+Occurence  :5
+PWT        :1,2,1,4,3
+PWD        :11
+
+# 17
+Term       :পালন
+Occurence  :2
+PWT        :6,4
+PWD        :10
+
+# 18
+Term       :সমাজ
+Occurence  :2
+PWT        :2,6
+PWD        :8
+
+# 19
+Term       :মহামারি
+Occurence  :3
+PWT        :1,6,1
+PWD        :8
+
+# 20
+Term       :করে
+Occurence  :4
+PWT        :4,2,1,1
+PWD        :8
+
+# 21
+Term       :স্বাস্থ্য
+Occurence  :4
+PWT        :2,2,2,2
+PWD        :8
+
+# 22
+Term       :এখন
+Occurence  :3
+PWT        :4,1,3
+PWD        :8
+
+# 23
+Term       :যে
+Occurence  :4
+PWT        :1,2,4,1
+PWD        :8
+
+# 24
+Term       :মোকাবিলায়
+Occurence  :2
+PWT        :2,6
+PWD        :8
+
+# 25
+Term       :সরকার
+Occurence  :5
+PWT        :2,2,1,2,1
+PWD        :8
+
+# 26
+Term       :ব্যক্তিগত
+Occurence  :3
+PWT        :4,1,2
+PWD        :7
+
+# 27
+Term       :তারা
+Occurence  :3
+PWT        :1,4,2
+PWD        :7
+
+# 28
+Term       :সরকারকে
+Occurence  :2
+PWT        :6,1
+PWD        :7
+
+# 29
+Term       :গুরুত্বপূর্ণ
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 30
+Term       :প্রথম
+Occurence  :3
+PWT        :1,1,4
+PWD        :6
+
+# 31
+Term       :গুরুত্ব
+Occurence  :2
+PWT        :2,4
+PWD        :6
+
+# 32
+Term       :তার
+Occurence  :5
+PWT        :1,1,1,1,2
+PWD        :6
+
+# 33
+Term       :না
+Occurence  :4
+PWT        :1,1,2,2
+PWD        :6
+
+# 34
+Term       :সক্রিয়
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 35
+Term       :সর্বোচ্চ
+Occurence  :2
+PWT        :4,2
+PWD        :6
+
+# 36
+Term       :সেটি
+Occurence  :2
+PWT        :4,2
+PWD        :6
+
+# 37
+Term       :বিষয়ে
+Occurence  :3
+PWT        :4,1,1
+PWD        :6
+
+# 38
+Term       :বা
+Occurence  :3
+PWT        :2,2,2
+PWD        :6
+
+# 39
+Term       :অর্থাৎ,
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 40
+Term       :সরকারি
+Occurence  :2
+PWT        :2,4
+PWD        :6
+
+# 41
+Term       :কম
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 42
+Term       :সুযোগ
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 43
+Term       :অবহেলার
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 44
+Term       :পালনের
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 45
+Term       :করা
+Occurence  :4
+PWT        :2,1,1,2
+PWD        :6
+
+# 46
+Term       :দায়িত্ব
+Occurence  :1
+PWT        :6
+PWD        :6
+
+# 47
+Term       :ট্রেসিং
+Occurence  :2
+PWT        :2,4
+PWD        :6
+
+# 48
+Term       :বেসরকারি
+Occurence  :3
+PWT        :2,2,1
+PWD        :5
+
+# 49
+Term       :সঙ্গে
+Occurence  :4
+PWT        :2,1,1,1
+PWD        :5
+
+# 50
+Term       :ব্যক্তিদের
+Occurence  :3
+PWT        :2,2,1
+PWD        :5
+
+# 51
+Term       :করোনা
+Occurence  :2
+PWT        :2,3
+PWD        :5
+
+# 52
+Term       :জেনে
+Occurence  :2
+PWT        :4,1
+PWD        :5
+
+# 53
+Term       :নিশ্চিত
+Occurence  :2
+PWT        :4,1
+PWD        :5
+
+# 54
+Term       :তাকে
+Occurence  :3
+PWT        :1,2,2
+PWD        :5
+
+# 55
+Term       :বড়
+Occurence  :2
+PWT        :4,1
+PWD        :5
+
+# 56
+Term       :সবচেয়ে
+Occurence  :2
+PWT        :4,1
+PWD        :5
+
+# 57
+Term       :আক্রান্ত
+Occurence  :3
+PWT        :2,2,1
+PWD        :5
+
+# 58
+Term       :ব্যক্তির
+Occurence  :3
+PWT        :2,2,1
+PWD        :5
+
+# 59
+Term       :ভাইরাসের
+Occurence  :2
+PWT        :1,4
+PWD        :5
+
+# 60
+Term       :দেশটির
+Occurence  :3
+PWT        :1,2,1
+PWD        :4
+
+# 61
+Term       :রেখেছে,
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 62
+Term       :শুধু
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 63
+Term       :টেস্টিং
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 64
+Term       :দিয়ে
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 65
+Term       :ছড়িয়ে
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 66
+Term       :পড়া
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 67
+Term       :ঠেকানো
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 68
+Term       :ওপর
+Occurence  :3
+PWT        :1,2,1
+PWD        :4
+
+# 69
+Term       :ট্রেড
+Occurence  :3
+PWT        :2,1,1
+PWD        :4
+
+# 70
+Term       :চিকিৎসক
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 71
+Term       :স্বাস্থ্যকর্মীদের
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 72
+Term       :বিষয়টি
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 73
+Term       :পারল?
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 74
+Term       :কেমন
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 75
+Term       :হচ্ছে
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 76
+Term       :প্রশ্ন
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 77
+Term       :সবাই
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 78
+Term       :সুরক্ষা
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 79
+Term       :সন্দেহভাজন
+Occurence  :2
+PWT        :2,2
+PWD        :4
+
+# 80
+Term       :হবে
+Occurence  :2
+PWT        :2,2
+PWD        :4
+
+# 81
+Term       :থেকে
+Occurence  :3
+PWT        :2,1,1
+PWD        :4
+
+# 82
+Term       :ছাড়া
+Occurence  :2
+PWT        :2,2
+PWD        :4
+
+# 83
+Term       :কেন্দ্রীয়
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 84
+Term       :দ্রুত
+Occurence  :2
+PWT        :2,2
+PWD        :4
+
+# 85
+Term       :ব্যবস্থা
+Occurence  :2
+PWT        :2,2
+PWD        :4
+
+# 86
+Term       :মোটামুটি
+Occurence  :1
+PWT        :4
+PWD        :4
+
+# 87
+Term       :হলো
+Occurence  :3
+PWT        :1,2,1
+PWD        :4
+
+# 88
+Term       :প্রতিদিন
+Occurence  :1
+PWT        :3
+PWD        :3
+
+# 89
+Term       :মাধ্যমে
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 90
+Term       :দেশ
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 91
+Term       :দেশে
+Occurence  :2
+PWT        :1,2
+PWD        :3
+
+# 92
+Term       :দিয়েছে,
+Occurence  :2
+PWT        :1,2
+PWD        :3
+
+# 93
+Term       :তা
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 94
+Term       :সেন্টার
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 95
+Term       :এই
+Occurence  :3
+PWT        :1,1,1
+PWD        :3
+
+# 96
+Term       :সংক্রমণ
+Occurence  :3
+PWT        :1,1,1
+PWD        :3
+
+# 97
+Term       :কাছে
+Occurence  :2
+PWT        :1,2
+PWD        :3
+
+# 98
+Term       :অনেক
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 99
+Term       :২০
+Occurence  :1
+PWT        :3
+PWD        :3
+
+# 100
+Term       :হাজার
+Occurence  :1
+PWT        :3
+PWD        :3
+
+# 101
+Term       :লোকের
+Occurence  :1
+PWT        :3
+PWD        :3
+
+# 102
+Term       :কোভিড-১৯
+Occurence  :1
+PWT        :3
+PWD        :3
+
+# 103
+Term       :কোনো
+Occurence  :2
+PWT        :1,2
+PWD        :3
+
+# 104
+Term       :আসা
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 105
+Term       :পাঠানো
+Occurence  :2
+PWT        :1,2
+PWD        :3
+
+# 106
+Term       :সংস্পর্শে
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 107
+Term       :কন্টাক্ট
+Occurence  :2
+PWT        :2,1
+PWD        :3
+
+# 108
+Term       :ইউনিয়নসহ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 109
+Term       :প্রযুক্তি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 110
+Term       :প্রস্তুতকারক
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 111
+Term       :প্রতিষ্ঠানগুলোর
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 112
+Term       :নাগরিক
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 113
+Term       :গুণগতভাবে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 114
+Term       :উচ্চ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 115
+Term       :মানসম্পন্ন
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 116
+Term       :কিট
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 117
+Term       :উৎপাদন
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 118
+Term       :করেছে,
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 119
+Term       :দ্রুততার
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 120
+Term       :নিবিড়ভাবে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 121
+Term       :ব্যাপকসংখ্যক
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 122
+Term       :মানুষের
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 123
+Term       :পরিস্থিতি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 124
+Term       :গড়ে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 125
+Term       :পর্যবেক্ষণ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 126
+Term       :সে
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 127
+Term       :সংক্রমিত
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 128
+Term       :দায়িত্বশীলতা
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 129
+Term       :ব্যাপক
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 130
+Term       :৮০টি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 131
+Term       :ড্রাইভ-থ্রু
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 132
+Term       :দিকে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 133
+Term       :আছে,
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 134
+Term       :স্বাস্থ্যকর্মীরা
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 135
+Term       :যেখান
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 136
+Term       :নজর
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 137
+Term       :গাড়ি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 138
+Term       :নিয়ে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 139
+Term       :মাত্রায়
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 140
+Term       :যুক্তরাষ্ট্র
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 141
+Term       :পৌঁছে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 142
+Term       :গিয়ে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 143
+Term       :ইউরোপীয়
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 144
+Term       :খুঁজে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 145
+Term       :বের
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 146
+Term       :(অ্যাগ্রেসিভ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 147
+Term       :প্রাথমিক
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 148
+Term       :চিকিৎসা
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 149
+Term       :সম্পূর্ণ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 150
+Term       :বিনা
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 151
+Term       :খরচে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 152
+Term       :টেস্টিং)
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 153
+Term       :হেলথ
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 154
+Term       :ফেরত
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 155
+Term       :কোয়ারেন্টিনে
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 156
+Term       :প্রতিষ্ঠান,
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 157
+Term       :এনজিও
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 158
+Term       :প্রকাশ
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 159
+Term       :কোথায়
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 160
+Term       :কোন
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 161
+Term       :ব্যবহার
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 162
+Term       :জন্য
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 163
+Term       :এতে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 164
+Term       :প্রাইভেসি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 165
+Term       :একান্ত
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 166
+Term       :নিভৃতি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 167
+Term       :লঙ্ঘনের
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 168
+Term       :অভিযোগ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 169
+Term       :মানবাধিকার
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 170
+Term       :অবলম্বন
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 171
+Term       :ইউনিয়ন
+Occurence  :2
+PWT        :1,1
+PWD        :2
+
+# 172
+Term       :ঘোষণা
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 173
+Term       :যদি
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 174
+Term       :অবৈধ
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 175
+Term       :অভিবাসী
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 176
+Term       :করাতে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 177
+Term       :আসে,
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 178
+Term       :তাহলে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 179
+Term       :আটক
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 180
+Term       :ভুল
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 181
+Term       :কিংবা
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 182
+Term       :পরবর্তী
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 183
+Term       :সময়ে
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 184
+Term       :জবাবদিহির
+Occurence  :1
+PWT        :2
+PWD        :2
+
+# 185
+Term       :হানা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 186
+Term       :চীনের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 187
+Term       :দারুণভাবে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 188
+Term       :ইনস্টিটিউটের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 189
+Term       :কমিয়ে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 190
+Term       :অনূদিত,
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 191
+Term       :ইকুইটি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 192
+Term       :সেগুলোর
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 193
+Term       :পদক্ষেপগুলো
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 194
+Term       :পিপলস
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 195
+Term       :ইংরেজি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 196
+Term       :অন্য
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 197
+Term       :দেশগুলো
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 198
+Term       :একটা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 199
+Term       :সুশীল
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 200
+Term       :সমাজের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 201
+Term       :কয়টা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 202
+Term       :সহজ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 203
+Term       :অনুসরণীয়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 204
+Term       :দেহে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 205
+Term       :করোনাভাইরাসের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 206
+Term       :শনাক্ত
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 207
+Term       :হওয়ার
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 208
+Term       :স্থানীয়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 209
+Term       :হতে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 210
+Term       :অব
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 211
+Term       :পরিচালক
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 212
+Term       :হয়েছে;
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 213
+Term       :থেকেই
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 214
+Term       :পরিচয়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 215
+Term       :সাম্প্রতিক
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 216
+Term       :গমনস্থল
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 217
+Term       :চলাচলের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 218
+Term       :ইতিহাস
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 219
+Term       :কড়া
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 220
+Term       :সিন্ডিকেট
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 221
+Term       :গিয়েছিল
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 222
+Term       :নিয়ম
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 223
+Term       :যানবাহন
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 224
+Term       :প্রজেক্ট
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 225
+Term       :করেছিল,
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 226
+Term       :সম্পর্কে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 227
+Term       :লোকেরা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 228
+Term       :যেতে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 229
+Term       :কাজটিকে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 230
+Term       :ট্রেসিংয়ের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 231
+Term       :মেনে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 232
+Term       :কর্তৃপক্ষ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 233
+Term       :মোবাইল
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 234
+Term       :ফোনের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 235
+Term       :জিপিএস
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 236
+Term       :ডেটা,
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 237
+Term       :ক্রেডিট
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 238
+Term       :কার্ডের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 239
+Term       :লেনদেনের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 240
+Term       :রেকর্ড
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 241
+Term       :সিসিটিভির
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 242
+Term       :ফুটেজের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 243
+Term       :নির্ভর
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 244
+Term       :এসব
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 245
+Term       :উপাত্ত
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 246
+Term       :কোরিয়ায়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 247
+Term       :বৈধ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 248
+Term       :এটি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 249
+Term       :ভাইরাস
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 250
+Term       :ঠেকাতে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 251
+Term       :অত্যন্ত
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 252
+Term       :সহায়ক
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 253
+Term       :দেশের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 254
+Term       :করোনার
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 255
+Term       :কিম
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 256
+Term       :একদম
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 257
+Term       :শুরুতেই
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 258
+Term       :পদক্ষেপ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 259
+Term       :সদিচ্ছাই
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 260
+Term       :নেওয়ার
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 261
+Term       :কমিশন
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 262
+Term       :নাম-পরিচয়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 263
+Term       :জনসমক্ষে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 264
+Term       :সাবধানতা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 265
+Term       :দেশটিতে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 266
+Term       :প্রতি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 267
+Term       :অনুরোধ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 268
+Term       :পক্ষের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 269
+Term       :করোনাযুদ্ধে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 270
+Term       :পরীক্ষাকেন্দ্রের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 271
+Term       :এনজিওগুলোর
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 272
+Term       :শ্রমিকেরা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 273
+Term       :কাজ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 274
+Term       :হারিয়েছে,
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 275
+Term       :তাদের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 276
+Term       :ঘরে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 277
+Term       :অবস্থান
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 278
+Term       :সহায়তা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 279
+Term       :কোম্পানিকে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 280
+Term       :মজুরি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 281
+Term       :দিতে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 282
+Term       :মৌলিক
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 283
+Term       :যাতে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 284
+Term       :লঙ্ঘিত
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 285
+Term       :হয়,
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 286
+Term       :এনজিওগুলো
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 287
+Term       :দিকনির্দেশনা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 288
+Term       :অভিবাসীদের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 289
+Term       :দিক
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 290
+Term       :উদার
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 291
+Term       :নীতি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 292
+Term       :সংখ্যা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 293
+Term       :৬
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 294
+Term       :শর
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 295
+Term       :স্বত্ব:
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 296
+Term       :পর
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 297
+Term       :মোকাবিলা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 298
+Term       :রিসার্চের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 299
+Term       :বিশেষজ্ঞ
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 300
+Term       :সারা
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 301
+Term       :মায়োং-হি
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 302
+Term       :লকডাউন
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 303
+Term       :ব্যাপকভাবে
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 304
+Term       :করেই
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 305
+Term       :দুই
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 306
+Term       :বিষয়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 307
+Term       :সংস্থাগুলোর
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 308
+Term       :সমন্বয়
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 309
+Term       :প্রাদুর্ভাবের
+Occurence  :1
+PWT        :1
+PWD        :1
+
+# 310
+Term       :এগিয়েছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 311
+Term       :জানিয়েছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 312
+Term       :উঠেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 313
+Term       :পেরেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 314
+Term       :হয়েছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 315
+Term       :সক্ষম।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 316
+Term       :আসেন।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 317
+Term       :বেশি।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 318
+Term       :স্বাস্থ্যকেন্দ্রগুলো।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 319
+Term       :না।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 320
+Term       :ছিল।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 321
+Term       :রেখেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 322
+Term       :যায়নি।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 323
+Term       :দিয়েছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 324
+Term       :ফেলেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 325
+Term       :পারে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 326
+Term       :এনেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 327
+Term       :করেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 328
+Term       :করেনি।
+Occurence  :0
+PWT        :
+PWD        :0
+
+# 329
+Term       :তুলেছে।
+Occurence  :0
+PWT        :
+PWD        :0
+
