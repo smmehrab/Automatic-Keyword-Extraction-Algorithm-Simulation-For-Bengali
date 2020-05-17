@@ -109,199 +109,203 @@ class Data {
 }
 
 class Article {
-    constructor(path, data) {
-        this.data = data;
+    constructor(path) {
+        // Reading Article from File
         this.raw = fs.readFileSync(path, 'utf8');
-        this.paragraphs = this.parseParagraphs();
-
-        this.terms = this.parseTerms();
-
-        this.topicalTerms = this.selectTopicalTerms();
-
-        this.compoundCandidates = this.selectCompoundCandidates();
-        this.compoundTerms = this.getCompoundTerms(this.compoundCandidates);
         
-        // For Testing Purpose //
+        // Initializing the Structure Recursively : Paragraphs > Sentences > Words > Letters
+        this.paragraphHead = this.paragraphLinkedList();
+        this.paragraphs = this.paragraphArray(this.paragraphHead);
+
+        // Performing Calculations - Core Algorithm
+        this.terms = this.calculateTerms();
+        this.topicalTerms = this.calculateTopicalTerms(this.terms);
+        this.compoundCandidates = this.calculateCompoundCandidates(this.topicalTerms);
+        this.compoundTerms = this.calculateCompoundTerms(this.compoundCandidates);
+        
+        // OUTPUT //
         this.outputAllTerms();
         this.outputTopicalTerms();
         this.outputCompoundTerms();
-
     }
 
     getRaw() {
         return this.raw;
     }
 
-    parseParagraphs() {
-        var paragraphs = [];
-        var index = 0;
+    getParagraphHead(){
+        return this.paragraphHead;
+    }
+
+    getParagraphs(){
+        this.paragraphs;
+    }
+
+    paragraphLinkedList(index=0, head=null, paragraphHead=null) {
         this.getRaw().split("\n").forEach(rawParagraph => {
             rawParagraph = rawParagraph.trim();
             if (rawParagraph) {
-                paragraphs.push(new Paragraph(index, rawParagraph, data));
+                if(!head){
+                    head = new Paragraph(index, rawParagraph, this);
+                    paragraphHead = head;
+                } else{
+                    head.next = new Paragraph(index, rawParagraph, this);
+                    head.next.previous = head;
+                    head = head.next;
+                }
                 index++;
             }
         });
-        return paragraphs;
+        return paragraphHead;
+    }
+
+    paragraphArray(head, paragraphs = []){
+        while(head){
+            paragraphs.push({
+                "index":head.getIndex(),
+                "raw": head.getRaw(),
+                "weight":head.getWeight(),
+                "length": head.getLength(),
+                "sentences": head.getSentences()
+            });
+            head = head.next;
+        }
+        return paragraphs;        
     }
 
 
-
-    // TERM SEARCHING //
-
-    parseTerms(){
-        var terms = [];
-        var termMaps = new Map();
-
-        this.paragraphs.forEach(paragraph=>{
-            paragraph.getSentences().forEach(sentence=>{
-                sentence.getWords().forEach(word=>{
-                    if(!termMaps[word.getRaw()]){
-                        termMaps[word.getRaw()] = {
-                            "raw": word.getRaw(),
-                            "occurence": [word.getOccurence()],
-                            "pwd": word.getOccurence().pwt
+    /*********** CALCULATIONS *************/
+    calculateTerms(terms=[], termMaps = new Map(), paragraphHead = this.getParagraphHead()){
+        // Iterating 3 Levels of Our Tree-Like Linked List to Access Every Leaf Node (Word)
+        while(paragraphHead){
+            var sentenceHead = paragraphHead.getSentenceHead();
+            while(sentenceHead){
+                var wordHead = sentenceHead.getWordHead();
+                while(wordHead){
+                    // Word - The First Time
+                    if(!termMaps[wordHead.getRaw()]){
+                        termMaps[wordHead.getRaw()] = {
+                            "raw"                       :   wordHead.getRaw(),
+                            "frequency"                 :   1,
+                            "positions"                 :   [wordHead.getPosition()],
+                            "positionWeights"           :   [wordHead.getPositionWeight()],
+                            "positionaWeightDocument"   :   wordHead.getPositionWeight(),
+                            "previous"                  :   [wordHead.previous],
+                            "next"                      :   [wordHead.next]              
                         };
-                        terms.push(word.getRaw());
-                    } else{
-                        termMaps[word.getRaw()].occurence.push(word.getOccurence());
-                        termMaps[word.getRaw()].pwd+=word.getOccurence().pwt;
+                        terms.push(wordHead.getRaw());
+                    } 
+                    // Word - Appeared Before
+                    else{
+                        termMaps[wordHead.getRaw()].frequency++;
+                        termMaps[wordHead.getRaw()].positions.push(wordHead.getPosition());
+                        termMaps[wordHead.getRaw()].positionWeights.push(wordHead.getPositionWeight());
+                        termMaps[wordHead.getRaw()].positionaWeightDocument += wordHead.getPositionWeight();
+                        termMaps[wordHead.getRaw()].previous.push(wordHead.previous),
+                        termMaps[wordHead.getRaw()].next.push(wordHead.next)
                     }
-                })
-            });
-        });
+                    
+                    wordHead = wordHead.next;
+                }
+                sentenceHead = sentenceHead.next;
+            }
+            paragraphHead = paragraphHead.next;
+        }
 
         terms = terms.map(term=>termMaps[term]);
         return terms;
     }
 
-    selectTopicalTerms(){
-        var terms = this.terms;
-        var maxPWD = -1;
-
+    calculateTopicalTerms(terms, maxPositionaWeightDocument=-1, topicalTerms=[]){
         terms.forEach(term=>{
-            if(term.pwd>maxPWD){
-                maxPWD=term.pwd;
+            if(term.positionaWeightDocument > maxPositionaWeightDocument){
+                maxPositionaWeightDocument = term.positionaWeightDocument;
             }
-        })
+        });
         
-        // var sortedTerms = terms.sort(compareValues('pwd', 'desc'));
-        var threshold = maxPWD / 6;
-        var topicalTerms = [];
-
-        for(let i=0; i<terms.length; i++){
-            let term = terms[i];
-            if (term.pwd > threshold) {
+        var thresholdPositionWeightDocument = maxPositionaWeightDocument / 6;
+        terms.forEach(term=>{
+            if(term.positionaWeightDocument > thresholdPositionWeightDocument){
                 topicalTerms.push(term);
-            } 
-        }
+            }
+        });
 
         return topicalTerms;
     }
 
-    wordsToTerms(words){
-        var terms = [];
-        var termMaps = new Map();
-
-        this.paragraphs.forEach(paragraph=>{
-            paragraph.getSentences().forEach(sentence=>{
-                sentence.getWords().forEach(word=>{
-                    if(words.indexOf(word.getRaw()) != -1){
-                        if(!termMaps[word.getRaw()]){
-                            termMaps[word.getRaw()] = {
-                                "raw": word.getRaw(),
-                                "occurence": [word.getOccurence()],
-                                "pwd": word.getOccurence().pwt
-                            };
-                            terms.push(word.getRaw());
-                        } else{
-                            termMaps[word.getRaw()].occurence.push(word.getOccurence());
-                            termMaps[word.getRaw()].pwd+=word.getOccurence().pwt;
+    calculateCompoundCandidates(topicalTerms, index=0, compoundCandidates=[]){
+        topicalTerms.forEach(topicalTerm=>{
+            var previous, next, previousCooccurrence, nextCooccurrence;
+            if(topicalTerm.previous.length>0){
+                topicalTerm.previous.forEach(candidate=>{
+                    if(candidate){
+                        if(!previous){
+                            previous = candidate;
+                            previousCooccurrence=1;
+                        }
+                        else if(previous.getRaw() == candidate.getRaw()){
+                            previousCooccurrence+=1;
+                        }
+                        else if(previous.positionaWeightDocument < candidate.positionaWeightDocument){
+                            previous = candidate;
+                            previousCooccurrence=1;
                         }
                     }
-                })
-            });
+                });
+            }
+
+            if(topicalTerm.next.length>0){
+                topicalTerm.next.forEach(candidate=>{
+                    if(candidate){
+                        if(!next){
+                            next = candidate;
+                            nextCooccurrence=1;
+                        }
+                        else if(next.getRaw()==candidate.getRaw()){
+                            nextCooccurrence+=1;
+                        }
+                        else if(next.positionaWeightDocument < candidate.positionaWeightDocument){
+                            next = candidate;
+                            nextCooccurrence=1;
+                        }
+                    }
+                });
+            }
+
+            compoundCandidates[index]={"previous": {"term": previous, "cooccurrence": previousCooccurrence}, "next": {"term": next, "cooccurrence": nextCooccurrence}};            
+            index++;            
         });
 
-        terms = terms.map(term=>termMaps[term]);
-        return terms;
+        return compoundCandidates;
     }
 
-    selectCompoundCandidates(){
-        var previousCandidate=[];
-        var nextCandidate=[];
-
-        var previousTerms=[];
-        var nextTerms=[];
-
-        var previousWords = [];
-        var nextWords = [];
-
+    calculateCompoundTerms(compoundCandidates, compoundTerms = []){
         for(let i=0;i<this.topicalTerms.length;i++){
-            let term = this.topicalTerms[i];
-            previousWords[i] = [];
-            nextWords[i] = [];
-            term.occurence.forEach(position=>{
-                let sentence = this.paragraphs[position.paragraph].getSentences()[position.sentence].getRaw().split(" ");
-                let index = sentence.indexOf(term.raw);
-                if(sentence[index-1]){
-                    previousWords[i].push(sentence[index-1]);
+            var threshold = this.topicalTerms[i].positions.length/6;
+            
+            if(compoundCandidates[i].previous.cooccurrence>threshold){
+                var alreadyIncluded = false;
+                var compoundWord = compoundCandidates[i].previous.term.raw +" "+ this.topicalTerms[i].raw;
+                compoundTerms.forEach(term=>{
+                   if(term.raw == compoundWord){
+                       alreadyIncluded=true;
+                   } 
+                });
+                if(!alreadyIncluded){
+                    compoundTerms.push({"topical": this.topicalTerms[i], "compound": compoundCandidates[i].previous.term, "raw": compoundWord});
                 }
-                if(sentence[index+1]){
-                    nextWords[i].push(sentence[index+1]);
-                }
-            });
-        }
-
-
-        for(let i=0;i<this.topicalTerms.length;i++){
-            if(previousWords[i]){
-                previousTerms[i] = this.wordsToTerms(previousWords[i]);
-                previousTerms[i].sort(compareValues('pwd', 'desc'));
-                previousCandidate[i] = previousTerms[i][0];
             }
-            if(nextWords[i]){
-                nextTerms[i] = this.wordsToTerms(nextWords[i]);
-                nextTerms[i].sort(compareValues('pwd', 'desc'));
-                nextCandidate[i] = nextTerms[i][0];
-            }
-        }
 
-        // this.outputTest(previousTerms);
-        return {"previous": previousCandidate, "next": nextCandidate};
-    }
-
-    getCompoundTerms(compoundCandidates){
-        var compoundTerms = [];
-        for(let i=0;i<this.topicalTerms.length;i++){
-            var threshold = this.topicalTerms[i].occurence.length/6;
-            if(compoundCandidates.previous[i] && compoundCandidates.next[i]){
-                if(compoundCandidates.previous[i].occurence.length > compoundCandidates.next[i].occurence.length){
-                    if(compoundCandidates.previous[i].occurence.length>threshold){
-                        compoundTerms.push({"topical": this.topicalTerms[i].raw, "compound":compoundCandidates.previous[i].raw + " " + this.topicalTerms[i].raw});
-                    }
-                } 
-
-                else if(compoundCandidates.previous[i].occurence.length < compoundCandidates.next[i].occurence.length){
-                    if(compoundCandidates.next[i].occurence.length>threshold){
-                        compoundTerms.push({"topical":  this.topicalTerms[i].raw, "compound": this.topicalTerms[i].raw + " " + compoundCandidates.next[i].raw});
-                    }
-                } 
-
-                else{
-                    if(compoundCandidates.next[i].occurence.length>threshold){
-                        compoundTerms.push({"topical":  this.topicalTerms[i].raw, "compound": compoundCandidates.previous[i].raw + " " +this.topicalTerms[i].raw + " " + compoundCandidates.next[i].raw});
-                    }
-                }
-            } 
-            else if(compoundCandidates.previous[i]){
-                if(compoundCandidates.previous[i].occurence.length>threshold){
-                    compoundTerms.push({"topical": this.topicalTerms[i].raw, "compound":compoundCandidates.previous[i].raw + " " + this.topicalTerms[i].raw});
-                }
-            } 
-            else{
-                if(compoundCandidates.next[i].occurence.length>threshold){
-                    compoundTerms.push({"topical":  this.topicalTerms[i].raw, "compound": this.topicalTerms[i].raw + " " + compoundCandidates.next[i].raw});
+            if(compoundCandidates[i].next.cooccurrence>threshold){
+                var alreadyIncluded = false;
+                var compoundWord = this.topicalTerms[i].raw +" "+ compoundCandidates[i].next.term.raw;
+                compoundTerms.forEach(term=>{
+                    if(term.raw == compoundWord){
+                        alreadyIncluded=true;
+                    } 
+                 });
+                if(!alreadyIncluded){
+                    compoundTerms.push({"topical": this.topicalTerms[i], "compound": compoundCandidates[i].next.term, "raw": compoundWord})
                 }
             }
         }
@@ -309,166 +313,111 @@ class Article {
     }
 
 
-
-
-    // For Testing Purpose //
-
-    outputAllTerms(){
-        var output ="";
-
-        var index = 1;
-        var output = "### ALL TERMS ###\n\n";
-        this.terms.forEach(term => {
-            output += "# " + index + "\n";
-            output += "Term       : " + term.raw + "\n";
-            output += "Occurence  : ";
-            term.occurence.forEach(position=>output+="(" + position.paragraph + ", " + position.sentence+") ");
+    // OUTPUT //
+    outputAllTerms(terms = this.terms, output = "### ALL TERMS ###\n\n", index = 1){
+        terms.forEach(term => {
+            output += "Index                    : " + index + "\n";
+            output += "Term                     : " + term.raw + "\n";
+            output += "Frequency                : " + term.frequency + "\n";
+            output += "Positions                : ";
+            term.positions.forEach(position=>{
+                output+= position.paragraph + ":" + position.sentence + ":" + position.word + " ";
+            });
             output+="\n";
-            output += "PWT        : ";
-            term.occurence.forEach(position=>output+=position.pwt + " ");
-            output+="\n";
-            output += "PWD        : " + term.pwd + "\n\n";
+            output += "Position Weights         : " + term.positionWeights + "\n";
+            output += "Position Weight Document : " + term.positionaWeightDocument + "\n\n";
             index++;
         });
-
         fs.writeFileSync("./data/output/allTerms.txt", output, "utf8");
     }
 
-    outputTopicalTerms(){
-        var output ="";
-
-        var index = 1;
-        var output = "### TOPICAL TERMS ###\n\n";
-        this.topicalTerms.forEach(term => {
-            output += "# " + index + "\n";
-            output += "Term       : " + term.raw + "\n";
-            output += "Occurence  : ";
-            term.occurence.forEach(position=>output+="(" + position.paragraph + ", " + position.sentence+") ");
+    outputTopicalTerms(terms = this.topicalTerms, output = "### TOPICAL TERMS ###\n\n", index = 1){
+        terms.forEach(term => {
+            output += "Index                    : " + index + "\n";
+            output += "Term                     : " + term.raw + "\n";
+            output += "Frequency                : " + term.frequency + "\n";
+            output += "Positions                : ";
+            term.positions.forEach(position=>{
+                output+= position.paragraph + ":" + position.sentence + ":" + position.word + " ";
+            });
             output+="\n";
-            output += "PWT        : ";
-            term.occurence.forEach(position=>output+=position.pwt + " ");
-            output+="\n";
-            output += "PWD        : " + term.pwd + "\n\n";
+            output += "Position Weights         : " + term.positionWeights + "\n";
+            output += "Position Weight Document : " + term.positionaWeightDocument + "\n\n";
             index++;
         });
-
         fs.writeFileSync("./data/output/topicalTerms.txt", output, "utf8");
     }
-    
-    outputCompoundTerms(){
-        var output ="";
 
-        var index = 1;
-        var output = "### COMPOUND TERMS ###\n\n";
-        this.compoundTerms.forEach(term => {
-            output += "# " + index + "\n";
-            output += "Term         : " + term.compound + "\n";
-            output += "Topical      : " + term.topical + "\n\n";
+    outputCompoundTerms(terms = this.compoundTerms, output = "### COMPOUND TERMS ###\n\n", index = 1){
+        terms.forEach(term => {
+            output += "Index                    : " + index + "\n";
+            output += "Term                     : " + term.raw + "\n";
+            output += "Topical                  : " + term.topical.raw + "\n";
+            output += "Compound                 : " + term.compound.raw + "\n\n";
             index++;
         });
-        // this.compoundTerms.forEach(term => {
-        //     output += "# " + index + "\n";
-        //     output += "Term       : " + term.raw + "\n";
-        //     output += "Occurence  : ";
-        //     term.occurence.forEach(position=>output+="(" + position.paragraph + ", " + position.sentence+") ");
-        //     output+="\n";
-        //     output += "PWT        : ";
-        //     term.occurence.forEach(position=>output+=position.pwt + " ");
-        //     output+="\n";
-        //     output += "PWD        : " + term.pwd + "\n\n";
-        //     index++;
-        // });
-
         fs.writeFileSync("./data/output/compoundTerms.txt", output, "utf8");
-    }
-
-    outputTest(terms){
-        var output ="";
-        var index = 1;
-        var output = "### TERMS ###\n\n";
-    
-        for(let i=0; i<terms.length; i++){
-            terms[i].forEach(term => {
-                output += "# " + index + "\n";
-                output += "Term       : " + term.raw + "\n";
-                output += "Occurence  : ";
-                term.occurence.forEach(position=>output+="(" + position.paragraph + ", " + position.sentence+") ");
-                output+="\n";
-                output += "PWT        : ";
-                term.occurence.forEach(position=>output+=position.pwt + " ");
-                output+="\n";
-                output += "PWD        : " + term.pwd + "\n\n";
-                index++;
-            });
-        }
-
-        fs.writeFileSync("./data/test/testOut.txt", output, "utf8");
-    }
-
-    logParagraphs() {
-        console.log(this.paragraphs);
-    }
-
-    log() {
-        console.log(this);
     }
 }
 
 class Paragraph {
-    constructor(index, raw, data) {
+    constructor(index, raw, parent) {
         this.index = index;
         this.raw = raw;
-        this.data = data;
+        
+        this.parent = parent;
+        this.previous = null;
+        this.next = null;
 
-        this.length = this.getLength();
         this.weight = this.calculateWeight();
 
-        this.sentences = this.parseSentences();
+        this.sentenceHead = this.sentenceLinkedList();
+        this.sentences = this.sentenceArray(this.sentenceHead);
+    }
+
+    getIndex(){
+        return this.index;
     }
 
     getRaw() {
         return this.raw;
     }
 
-    parseSentences() {
-        var sentences = [];
-        var index = 0;
+    getLength(){
+        return this.length;
+    }
+
+    getSentenceHead(){
+        return this.sentenceHead;
+    }
+
+    getWeight(){
+        return this.weight;
+    }
+
+    getPositionWeight(){
+        return this.weight;
+    }
+    
+    getSentences(){
+        return this.sentences;
+    }
+
+    getParent(){
+        return this.parent;
+    }
+
+    getFirstSentence(firstSentence = null){
         this.getRaw().split("।").forEach(rawSentence => {
             rawSentence = rawSentence.trim();
             if (rawSentence) {
-                sentences.push(new Sentence(index, rawSentence, {"index": this.index, "weight": this.weight}, this.data));
-                index++;
-            }
-        });
-        return sentences;
-    }
-
-    getFirstSentence(){
-        var firstSentence;
-        this.getRaw().split("।").forEach(sentence => {
-            sentence = sentence.trim();
-            if (sentence && !firstSentence) {
-                firstSentence = sentence;
+                firstSentence = rawSentence;
             }
         });
         return firstSentence;
     }
 
-    getLength(){
-        var index = 0;
-        this.getRaw().split("।").forEach(sentence => {
-            sentence = sentence.trim();
-            if (sentence) {
-                index++;
-            }
-        });
-        return index;
-    }
-
-    calculateWeight() {
-        var weight;
-        var firstSentence = this.getFirstSentence();
-
+    calculateWeight(weight = null, firstSentence = this.getFirstSentence()) {
         // Setting Title
         if (this.index == 0) {
             weight = 4;
@@ -481,7 +430,7 @@ class Paragraph {
 
         else {
             // Setting Leading or Conclusion
-            this.data.get("summary phrase").forEach(phrase => {
+            data.get("summary phrase").forEach(phrase => {
                 if (firstSentence.indexOf(phrase) == 0) {
                     weight = 3;
                 }
@@ -489,7 +438,7 @@ class Paragraph {
 
             // Setting Transition
             if (!weight) {
-                this.data.get("transition phrase").forEach(phrase => {
+                data.get("transition phrase").forEach(phrase => {
                     if (firstSentence.indexOf(phrase) == 0) {
                         weight = 2;
                     }
@@ -505,73 +454,105 @@ class Paragraph {
         return weight;
     }
 
-    getSentences(){
-        return this.sentences;
+    sentenceLinkedList(index=0, head=null, sentenceHead=null) {
+        this.getRaw().split("।").forEach(rawSentence => {
+            rawSentence = rawSentence.trim();
+            if (rawSentence) {
+                if(!head){
+                    head = new Sentence(index, rawSentence, this);
+                    sentenceHead = head;
+                } else{
+                    head.next = new Sentence(index, rawSentence, this);
+                    head.next.previous = head;
+                    head = head.next;
+                }
+                index++;
+            }
+        });
+        this.length = index;
+        return sentenceHead;
     }
 
-    log() {
-        console.log("index  : " + this.index);
-        console.log("raw    : " + this.sentences[0].getRaw() + " ... ");
-        console.log("length : " + this.length);
-        console.log("weight : " + this.weight);
-        console.log();
+    sentenceArray(head, sentences = []){
+        while(head){
+            sentences.push({
+                "index"     : head.getIndex(),
+                "raw"       : head.getRaw(),
+                "weight"    : head.getWeight(),
+                "length"    : head.getLength(),
+                "sentences" : head.getWords()
+            });
+            head = head.next;
+        }
+        return sentences;        
     }
 }
 
 class Sentence {
-    constructor(index, raw, paragraph, data) {
+    constructor(index, raw, parent) {
         this.index = index;
         this.raw = raw;
-        this.paragraph = paragraph;
-        this.data = data;
+
+        this.parent = parent;
+        this.previous = null;
+        this.next = null;
 
         this.weight = this.calculateWeight();
 
-        this.words = this.parseWords();
-        this.length = this.words.length;
+        this.wordHead = this.wordLinkedList();
+        this.words = this.wordArray(this.wordHead);
+    }
+
+    getIndex(){
+        return this.index;
     }
 
     getRaw() {
         return this.raw;
     }
 
-    parseWords() {
-        var words = [];
-        var index = 0;
-        this.getRaw().split(" ").forEach(rawWord => {
-            rawWord = rawWord.trim();
-            if (rawWord) {
-                words.push(new Word(index, rawWord, {"index": this.index, "weight": this.weight} , this.paragraph, data));
-                index++;
-            }
-        });
-        return words;
-    }
-
     getLength(){
-        return this.words.length;
+        return this.length;
     }
 
-    calculateWeight() {
-        var weight;
+    getWeight(){
+        return this.weight;
+    }
 
-        // Setting Title
-        if (this.paragraph.index == 0) {
+    getPositionWeight(){
+        return (this.getWeight() * this.getParent().getPositionWeight());
+    }
+
+    getWords(){
+        return this.words;
+    }
+
+    getWordHead(){
+        return this.wordHead;
+    }
+
+    getParent(){
+        return this.parent;
+    }
+    
+    calculateWeight(weight=null) {
+        // If Title Sentence
+        if (this.parent.getIndex() == 0) {
             weight = 4;
         }
 
-        // Setting Leading or Conclusion
+        // If Leading or Conclusion Sentence
         if (!weight) {
-            this.data.get("summary phrase").forEach(phrase => {
+            data.get("summary phrase").forEach(phrase => {
                 if (this.raw.indexOf(phrase) == 0) {
                     weight = 3;
                 }
             });
         }
 
-        // Setting Transition
+        // If Transition Sentence
         if (!weight) {
-            this.data.get("transition phrase").forEach(phrase => {
+            data.get("transition phrase").forEach(phrase => {
                 if (this.raw.indexOf(phrase) == 0) {
                     weight = 2;
                 }
@@ -586,60 +567,105 @@ class Sentence {
         return weight;
     }
 
-    getWords(){
-        return this.words;
+    wordLinkedList(index=0, head=null, wordHead=null) {
+        this.getRaw().split(" ").forEach(rawWord => {
+            rawWord = rawWord.trim();
+            if (rawWord) {
+                if(!head){
+                    head = new Word(index, rawWord, this);
+                    wordHead = head;
+                } else{
+                    head.next = new Word(index, rawWord, this);
+                    head.next.previous = head;
+                    head = head.next;
+                }
+                index++;
+            }
+        });
+        this.length = index;
+        return wordHead;
     }
 
-    log() {
-        if (this.weight > 1) {
-            console.log("index      :   " + this.paragraph.index + this.index);
-            console.log("weight     :   " + this.weight);
-            console.log();
-            console.log();
+    wordArray(head, words = []){
+        while(head){
+            words.push({
+                "index"             : head.getIndex(),
+                "raw"               : head.getRaw(),
+                "positionWeight"    : head.getPositionWeight(),
+                "weight"            : head.getWeight(),
+                "length"            : head.getLength(),
+                "letters"           : head.getLetters()
+            });
+            head = head.next;
         }
+        return words;        
     }
 }
 
 class Word {
-    constructor(index, raw, sentence, paragraph, data) {
+    constructor(index, raw, parent) {
         this.index = index;
         this.raw = raw;
-        this.sentence = sentence;
-        this.paragraph = paragraph;
-        this.data = data;
 
-        this.letters = this.parseLetters();
-        this.length = this.letters.length;
+        this.parent = parent;
+        this.previous = null;
+        this.next = null;
+
         this.weight = this.calculateWeight();
-        // this.log();
+
+        this.letterHead = this.letterLinkedList();
+        this.letters = this.letterArray(this.letterHead);
     }
 
-    getRaw() {
+    getIndex(){
+        return this.index;
+    }
+
+    getRaw(){
         return this.raw;
     }
 
-    parseLetters() {
-        var letters = [];
-        this.getRaw().split("").forEach(letter => letters.push(letter));
-        return letters;
+    getWeight(){
+        return this.weight;
     }
 
-    calculateWeight() {
-        var weight;
+    getPositionWeight(){
+        return (this.getWeight() * this.getParent().getPositionWeight());
+    }
 
-        // Setting Words with Digits
-        var digits = this.data.get("digit");
+    getLength(){
+        return this.length;
+    }
+
+    getLetters(){
+        return this.letters;
+    }
+
+    getParent(){
+        return this.parent;
+    }
+
+    getPosition(){
+        return {
+            "paragraph" : this.getParent().getParent().getIndex(),
+            "sentence"  : this.getParent().getIndex(),
+            "word"      : this.getIndex()
+        };
+    }
+
+    calculateWeight(weight=null) {
+        // If Word includes Digits
+        var digits = data.get("digit");
         for (let j = 0; j < digits.length; j++) {
             var digit = digits[j];
-
-            if(this.raw.startsWith(digit)){
+            if(this.getRaw().startsWith(digit)){
                 weight = 1;
-            } else if (this.raw.endsWith(digit) && !weight) {
+            } else if (this.getRaw().endsWith(digit) && !weight) {
                 weight = 3;
             }
         }
 
-        // Setting Others
+        // Others
         if (!weight) {
             weight = 1;
         }
@@ -647,34 +673,57 @@ class Word {
         return weight;
     }
 
-    getWeight(){
-        return this.weight;
+    letterLinkedList(index=0, head=null, letterHead=null) {
+        this.getRaw().split("").forEach(rawLetter => {
+            if (rawLetter) {
+                if(!head){
+                    head = new Letter(index, rawLetter, this);
+                    letterHead = head;
+                } else{
+                    head.next = new Letter(index, rawLetter, this);
+                    head.next.previous = head;
+                    head = head.next;
+                }
+                index++;
+            }
+        });
+        this.length = index;
+        return letterHead;
     }
 
-    getOccurence(){
-        return {
-            "sentence":this.sentence.index,
-            "paragraph":this.paragraph.index,
-            "pwt":(this.weight * this.sentence.weight * this.paragraph.weight)
-        };
-    }
-
-    log() {
-        if(this.weight>1){
-            console.log("index      :   " + this.paragraph + this.sentence + " " + this.index);
-            console.log("weight     :   " + this.weight);
-            console.log();
+    letterArray(head, letters = []){
+        while(head){
+            letters.push({
+                "index"     : head.getIndex(),
+                "raw"       : head.getRaw(),
+            });
+            head = head.next;
         }
+        return letters;        
+    }
+}
 
-        console.log(this.weight);
-        console.log(this.paragraph.weight);
-        console.log(this.sentence.weight);
+class Letter{
+    constructor(index, raw, parent){
+        this.index = index;
+        this.raw = raw;
+        
+        this.parent = parent;
+        this.previous = null;
+        this.next = null;
+    }
+
+    getIndex(){
+        return this.index;
+    }
+
+    getRaw(){
+        return this.raw;
     }
 }
 
 var data = new Data('./data');
-var article = new Article('./data/input/article.txt', data);
-
+var article = new Article('./data/input/article.txt');
 
 
 

@@ -1,0 +1,212 @@
+### COMPOUND TERMS ###
+
+Index                    : 1
+Term                     : দক্ষিণ কোরিয়ার
+Topical                  : দক্ষিণ
+Compound                 : কোরিয়ার
+
+Index                    : 2
+Term                     : কোরিয়ার সাফল্যের
+Topical                  : কোরিয়ার
+Compound                 : সাফল্যের
+
+Index                    : 3
+Term                     : সাফল্যের রহস্য
+Topical                  : সাফল্যের
+Compound                 : রহস্য
+
+Index                    : 4
+Term                     : রহস্য কী
+Topical                  : রহস্য
+Compound                 : কী
+
+Index                    : 5
+Term                     : প্রথম যে
+Topical                  : যে
+Compound                 : প্রথম
+
+Index                    : 6
+Term                     : যে কয়টা
+Topical                  : যে
+Compound                 : কয়টা
+
+Index                    : 7
+Term                     : দক্ষিণ কোরিয়া
+Topical                  : কোরিয়া
+Compound                 : দক্ষিণ
+
+Index                    : 8
+Term                     : কোরিয়া তা
+Topical                  : কোরিয়া
+Compound                 : তা
+
+Index                    : 9
+Term                     : এই মহামারি
+Topical                  : মহামারি
+Compound                 : এই
+
+Index                    : 10
+Term                     : মহামারি মোকাবিলা
+Topical                  : মহামারি
+Compound                 : মোকাবিলা
+
+Index                    : 11
+Term                     : কেমন করে
+Topical                  : করে
+Compound                 : কেমন
+
+Index                    : 12
+Term                     : করে পারল?
+Topical                  : করে
+Compound                 : পারল?
+
+Index                    : 13
+Term                     : বিষয়টি এ
+Topical                  : এ
+Compound                 : বিষয়টি
+
+Index                    : 14
+Term                     : এ ক্ষেত্রে
+Topical                  : এ
+Compound                 : ক্ষেত্রে
+
+Index                    : 15
+Term                     : ক্ষেত্রে সবচেয়ে
+Topical                  : ক্ষেত্রে
+Compound                 : সবচেয়ে
+
+Index                    : 16
+Term                     : মোটামুটি এখন
+Topical                  : এখন
+Compound                 : মোটামুটি
+
+Index                    : 17
+Term                     : এখন সবাই
+Topical                  : এখন
+Compound                 : সবাই
+
+Index                    : 18
+Term                     : হলো করোনা
+Topical                  : করোনা
+Compound                 : হলো
+
+Index                    : 19
+Term                     : করোনা মোকাবিলায়
+Topical                  : করোনা
+Compound                 : মোকাবিলায়
+
+Index                    : 20
+Term                     : মোকাবিলায় দক্ষিণ
+Topical                  : মোকাবিলায়
+Compound                 : দক্ষিণ
+
+Index                    : 21
+Term                     : কোরিয়ার সরকার
+Topical                  : সরকার
+Compound                 : কোরিয়ার
+
+Index                    : 22
+Term                     : সরকার ব্যাপক
+Topical                  : সরকার
+Compound                 : ব্যাপক
+
+Index                    : 23
+Term                     : মাত্রায় স্বাস্থ্য
+Topical                  : স্বাস্থ্য
+Compound                 : মাত্রায়
+
+Index                    : 24
+Term                     : স্বাস্থ্য পরীক্ষা
+Topical                  : স্বাস্থ্য
+Compound                 : পরীক্ষা
+
+Index                    : 25
+Term                     : গুরুত্ব দিয়েছে
+Topical                  : দিয়েছে
+Compound                 : গুরুত্ব
+
+Index                    : 26
+Term                     : নাগরিক সমাজ
+Topical                  : সমাজ
+Compound                 : নাগরিক
+
+Index                    : 27
+Term                     : সমাজ নিবিড়ভাবে
+Topical                  : সমাজ
+Compound                 : নিবিড়ভাবে
+
+Index                    : 28
+Term                     : তারা সরকারের
+Topical                  : সরকারের
+Compound                 : তারা
+
+Index                    : 29
+Term                     : সরকারের দায়িত্বশীলতা
+Topical                  : সরকারের
+Compound                 : দায়িত্বশীলতা
+
+Index                    : 30
+Term                     : নেওয়ার ফলে
+Topical                  : ফলে
+Compound                 : নেওয়ার
+
+Index                    : 31
+Term                     : ফলে সরকারের
+Topical                  : ফলে
+Compound                 : সরকারের
+
+Index                    : 32
+Term                     : সক্রিয় করতে
+Topical                  : করতে
+Compound                 : সক্রিয়
+
+Index                    : 33
+Term                     : করতে দক্ষিণ
+Topical                  : করতে
+Compound                 : দক্ষিণ
+
+Index                    : 34
+Term                     : ভূমিকা পালন
+Topical                  : পালন
+Compound                 : ভূমিকা
+
+Index                    : 35
+Term                     : পালন করেছে
+Topical                  : পালন
+Compound                 : করেছে
+
+Index                    : 36
+Term                     : এ ছাড়া
+Topical                  : ছাড়া
+Compound                 : এ
+
+Index                    : 37
+Term                     : ছাড়া ৮০টি
+Topical                  : ছাড়া
+Compound                 : ৮০টি
+
+Index                    : 38
+Term                     : দ্রুত সন্দেহভাজন
+Topical                  : সন্দেহভাজন
+Compound                 : দ্রুত
+
+Index                    : 39
+Term                     : সন্দেহভাজন আক্রান্ত
+Topical                  : সন্দেহভাজন
+Compound                 : আক্রান্ত
+
+Index                    : 40
+Term                     : আক্রান্ত ব্যক্তির
+Topical                  : আক্রান্ত
+Compound                 : ব্যক্তির
+
+Index                    : 41
+Term                     : ব্যবস্থা করা
+Topical                  : করা
+Compound                 : ব্যবস্থা
+
+Index                    : 42
+Term                     : করা হয়েছে
+Topical                  : করা
+Compound                 : হয়েছে
+

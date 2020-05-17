@@ -1,0 +1,2333 @@
+### ALL TERMS ###
+
+Index                    : 1
+Term                     : দক্ষিণ
+Frequency                : 11
+Positions                : 0:0:0 1:0:14 1:1:9 1:2:0 2:0:2 2:1:4 3:4:6 4:0:0 4:2:1 5:3:4 9:0:0 
+Position Weights         : 16,1,2,1,4,2,6,2,6,1,1
+Position Weight Document : 42
+
+Index                    : 2
+Term                     : কোরিয়ার
+Frequency                : 5
+Positions                : 0:0:1 2:1:5 3:4:7 4:0:1 9:0:1 
+Position Weights         : 16,2,6,2,1
+Position Weight Document : 27
+
+Index                    : 3
+Term                     : সাফল্যের
+Frequency                : 1
+Positions                : 0:0:2 
+Position Weights         : 16
+Position Weight Document : 16
+
+Index                    : 4
+Term                     : রহস্য
+Frequency                : 1
+Positions                : 0:0:3 
+Position Weights         : 16
+Position Weight Document : 16
+
+Index                    : 5
+Term                     : কী
+Frequency                : 1
+Positions                : 0:0:4 
+Position Weights         : 16
+Position Weight Document : 16
+
+Index                    : 6
+Term                     : চীনের
+Frequency                : 1
+Positions                : 1:0:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 7
+Term                     : পর
+Frequency                : 1
+Positions                : 1:0:1 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 8
+Term                     : প্রথম
+Frequency                : 3
+Positions                : 1:0:2 1:2:2 2:0:7 
+Position Weights         : 1,1,4
+Position Weight Document : 6
+
+Index                    : 9
+Term                     : যে
+Frequency                : 4
+Positions                : 1:0:3 1:1:6 2:0:8 6:1:0 
+Position Weights         : 1,2,4,1
+Position Weight Document : 8
+
+Index                    : 10
+Term                     : কয়টা
+Frequency                : 1
+Positions                : 1:0:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 11
+Term                     : দেশের
+Frequency                : 1
+Positions                : 1:0:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 12
+Term                     : ওপর
+Frequency                : 3
+Positions                : 1:0:6 2:1:25 5:2:15 
+Position Weights         : 1,2,1
+Position Weight Document : 4
+
+Index                    : 13
+Term                     : কোভিড-১৯
+Frequency                : 1
+Positions                : 1:0:7 
+Position Weights         : 3
+Position Weight Document : 3
+
+Index                    : 14
+Term                     : ব্যাপকভাবে
+Frequency                : 1
+Positions                : 1:0:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 15
+Term                     : হানা
+Frequency                : 1
+Positions                : 1:0:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 16
+Term                     : দিয়েছে,
+Frequency                : 2
+Positions                : 1:0:10 6:4:3 
+Position Weights         : 1,2
+Position Weight Document : 3
+
+Index                    : 17
+Term                     : সেগুলোর
+Frequency                : 1
+Positions                : 1:0:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 18
+Term                     : একটা
+Frequency                : 1
+Positions                : 1:0:12 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 19
+Term                     : হলো
+Frequency                : 3
+Positions                : 1:0:13 2:1:1 6:5:3 
+Position Weights         : 1,2,1
+Position Weight Document : 4
+
+Index                    : 20
+Term                     : কোরিয়া
+Frequency                : 5
+Positions                : 1:0:15 1:1:10 1:2:1 2:0:3 4:2:2 
+Position Weights         : 1,2,1,4,6
+Position Weight Document : 14
+
+Index                    : 21
+Term                     : তবে
+Frequency                : 1
+Positions                : 1:1:0 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 22
+Term                     : যুক্তরাষ্ট্র
+Frequency                : 1
+Positions                : 1:1:1 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 23
+Term                     : বা
+Frequency                : 3
+Positions                : 1:1:2 2:1:16 5:4:3 
+Position Weights         : 2,2,2
+Position Weight Document : 6
+
+Index                    : 24
+Term                     : অনেক
+Frequency                : 2
+Positions                : 1:1:3 6:0:6 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 25
+Term                     : ইউরোপীয়
+Frequency                : 1
+Positions                : 1:1:4 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 26
+Term                     : দেশ
+Frequency                : 2
+Positions                : 1:1:5 1:3:2 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 27
+Term                     : ভুল
+Frequency                : 1
+Positions                : 1:1:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 28
+Term                     : করেছে,
+Frequency                : 1
+Positions                : 1:1:8 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 29
+Term                     : তা
+Frequency                : 2
+Positions                : 1:1:11 6:2:6 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 30
+Term                     : করেনি
+Frequency                : 1
+Positions                : 1:1:12 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 31
+Term                     : থেকেই
+Frequency                : 1
+Positions                : 1:2:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 32
+Term                     : কড়া
+Frequency                : 1
+Positions                : 1:2:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 33
+Term                     : নিয়ম
+Frequency                : 1
+Positions                : 1:2:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 34
+Term                     : মেনে
+Frequency                : 1
+Positions                : 1:2:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 35
+Term                     : এই
+Frequency                : 3
+Positions                : 1:2:7 1:4:1 4:0:9 
+Position Weights         : 1,1,2
+Position Weight Document : 4
+
+Index                    : 36
+Term                     : মহামারি
+Frequency                : 3
+Positions                : 1:2:8 3:4:1 9:0:12 
+Position Weights         : 1,6,1
+Position Weight Document : 8
+
+Index                    : 37
+Term                     : মোকাবিলা
+Frequency                : 1
+Positions                : 1:2:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 38
+Term                     : করেছে
+Frequency                : 6
+Positions                : 1:2:10 3:1:12 3:4:12 3:5:15 3:6:5 5:2:17 
+Position Weights         : 1,2,6,2,4,1
+Position Weight Document : 16
+
+Index                    : 39
+Term                     : তারা
+Frequency                : 3
+Positions                : 1:3:0 2:2:1 3:2:0 
+Position Weights         : 1,4,2
+Position Weight Document : 7
+
+Index                    : 40
+Term                     : সারা
+Frequency                : 1
+Positions                : 1:3:1 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 41
+Term                     : লকডাউন
+Frequency                : 1
+Positions                : 1:3:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 42
+Term                     : না
+Frequency                : 4
+Positions                : 1:3:4 6:2:4 6:4:17 6:4:27 
+Position Weights         : 1,1,2,2
+Position Weight Document : 6
+
+Index                    : 43
+Term                     : করেই
+Frequency                : 1
+Positions                : 1:3:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 44
+Term                     : ভাইরাসের
+Frequency                : 2
+Positions                : 1:3:6 3:0:6 
+Position Weights         : 1,4
+Position Weight Document : 5
+
+Index                    : 45
+Term                     : সংক্রমণ
+Frequency                : 3
+Positions                : 1:3:7 5:0:4 5:3:10 
+Position Weights         : 1,1,1
+Position Weight Document : 3
+
+Index                    : 46
+Term                     : দারুণভাবে
+Frequency                : 1
+Positions                : 1:3:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 47
+Term                     : কমিয়ে
+Frequency                : 1
+Positions                : 1:3:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 48
+Term                     : এনেছে
+Frequency                : 1
+Positions                : 1:3:10 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 49
+Term                     : দেশটির
+Frequency                : 3
+Positions                : 1:4:0 3:1:0 5:5:0 
+Position Weights         : 1,2,1
+Position Weight Document : 4
+
+Index                    : 50
+Term                     : পদক্ষেপগুলো
+Frequency                : 1
+Positions                : 1:4:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 51
+Term                     : অন্য
+Frequency                : 1
+Positions                : 1:4:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 52
+Term                     : দেশগুলো
+Frequency                : 1
+Positions                : 1:4:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 53
+Term                     : ও
+Frequency                : 8
+Positions                : 1:4:5 2:2:3 3:1:4 3:2:3 3:5:4 4:3:7 5:0:22 6:0:3 
+Position Weights         : 1,4,2,2,2,4,1,1
+Position Weight Document : 17
+
+Index                    : 54
+Term                     : সুশীল
+Frequency                : 1
+Positions                : 1:4:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 55
+Term                     : সমাজের
+Frequency                : 1
+Positions                : 1:4:7 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 56
+Term                     : কাছে
+Frequency                : 2
+Positions                : 1:4:8 4:1:15 
+Position Weights         : 1,4
+Position Weight Document : 5
+
+Index                    : 57
+Term                     : অনুসরণীয়
+Frequency                : 1
+Positions                : 1:4:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 58
+Term                     : হতে
+Frequency                : 1
+Positions                : 1:4:10 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 59
+Term                     : পারে
+Frequency                : 1
+Positions                : 1:4:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 60
+Term                     : প্রশ্ন
+Frequency                : 1
+Positions                : 2:0:0 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 61
+Term                     : হচ্ছে
+Frequency                : 1
+Positions                : 2:0:1 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 62
+Term                     : কেমন
+Frequency                : 1
+Positions                : 2:0:4 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 63
+Term                     : করে
+Frequency                : 4
+Positions                : 2:0:5 4:1:19 6:5:9 6:6:5 
+Position Weights         : 4,4,1,1
+Position Weight Document : 10
+
+Index                    : 64
+Term                     : পারল?
+Frequency                : 1
+Positions                : 2:0:6 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 65
+Term                     : বিষয়টি
+Frequency                : 1
+Positions                : 2:0:9 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 66
+Term                     : এ
+Frequency                : 4
+Positions                : 2:0:10 3:6:0 4:1:0 4:3:0 
+Position Weights         : 4,4,4,4
+Position Weight Document : 16
+
+Index                    : 67
+Term                     : ক্ষেত্রে
+Frequency                : 3
+Positions                : 2:0:11 3:3:4 3:6:1 
+Position Weights         : 4,6,4
+Position Weight Document : 14
+
+Index                    : 68
+Term                     : সবচেয়ে
+Frequency                : 2
+Positions                : 2:0:12 6:5:0 
+Position Weights         : 4,1
+Position Weight Document : 5
+
+Index                    : 69
+Term                     : বড়
+Frequency                : 2
+Positions                : 2:0:13 6:5:1 
+Position Weights         : 4,1
+Position Weight Document : 5
+
+Index                    : 70
+Term                     : ভূমিকা
+Frequency                : 6
+Positions                : 2:0:14 3:4:10 3:6:3 5:3:14 6:0:5 6:1:16 
+Position Weights         : 4,6,4,1,1,1
+Position Weight Document : 17
+
+Index                    : 71
+Term                     : রেখেছে,
+Frequency                : 1
+Positions                : 2:0:15 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 72
+Term                     : সেটি
+Frequency                : 2
+Positions                : 2:0:16 2:1:0 
+Position Weights         : 4,2
+Position Weight Document : 6
+
+Index                    : 73
+Term                     : মোটামুটি
+Frequency                : 1
+Positions                : 2:0:17 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 74
+Term                     : এখন
+Frequency                : 3
+Positions                : 2:0:18 4:0:14 4:2:3 
+Position Weights         : 4,2,6
+Position Weight Document : 12
+
+Index                    : 75
+Term                     : সবাই
+Frequency                : 1
+Positions                : 2:0:19 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 76
+Term                     : জেনে
+Frequency                : 2
+Positions                : 2:0:20 5:1:12 
+Position Weights         : 4,1
+Position Weight Document : 5
+
+Index                    : 77
+Term                     : ফেলেছে
+Frequency                : 1
+Positions                : 2:0:21 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 78
+Term                     : করোনা
+Frequency                : 2
+Positions                : 2:1:2 4:2:8 
+Position Weights         : 2,6
+Position Weight Document : 8
+
+Index                    : 79
+Term                     : মোকাবিলায়
+Frequency                : 2
+Positions                : 2:1:3 3:4:2 
+Position Weights         : 2,6
+Position Weight Document : 8
+
+Index                    : 80
+Term                     : সরকার
+Frequency                : 5
+Positions                : 2:1:6 3:5:0 4:0:2 6:4:1 6:5:4 
+Position Weights         : 2,2,2,2,1
+Position Weight Document : 9
+
+Index                    : 81
+Term                     : ব্যাপক
+Frequency                : 1
+Positions                : 2:1:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 82
+Term                     : মাত্রায়
+Frequency                : 1
+Positions                : 2:1:8 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 83
+Term                     : স্বাস্থ্য
+Frequency                : 4
+Positions                : 2:1:9 3:5:22 4:3:5 6:4:8 
+Position Weights         : 2,2,4,2
+Position Weight Document : 10
+
+Index                    : 84
+Term                     : পরীক্ষা
+Frequency                : 7
+Positions                : 2:1:10 3:5:12 3:5:23 4:1:18 4:2:9 4:3:6 6:4:9 
+Position Weights         : 2,2,2,4,6,4,2
+Position Weight Document : 22
+
+Index                    : 85
+Term                     : (অ্যাগ্রেসিভ
+Frequency                : 1
+Positions                : 2:1:11 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 86
+Term                     : টেস্টিং)
+Frequency                : 1
+Positions                : 2:1:12 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 87
+Term                     : এবং
+Frequency                : 8
+Positions                : 2:1:13 3:0:3 3:5:16 5:0:18 5:1:4 5:2:12 5:3:7 9:0:11 
+Position Weights         : 2,4,2,1,1,1,1,1
+Position Weight Document : 13
+
+Index                    : 88
+Term                     : কন্টাক্ট
+Frequency                : 2
+Positions                : 2:1:14 5:2:0 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 89
+Term                     : ট্রেসিং
+Frequency                : 2
+Positions                : 2:1:15 3:0:4 
+Position Weights         : 2,4
+Position Weight Document : 6
+
+Index                    : 90
+Term                     : সংক্রমিত
+Frequency                : 1
+Positions                : 2:1:17 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 91
+Term                     : ব্যক্তির
+Frequency                : 3
+Positions                : 2:1:18 4:1:14 5:0:1 
+Position Weights         : 2,4,1
+Position Weight Document : 7
+
+Index                    : 92
+Term                     : সংস্পর্শে
+Frequency                : 2
+Positions                : 2:1:19 5:1:14 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 93
+Term                     : আসা
+Frequency                : 2
+Positions                : 2:1:20 5:1:15 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 94
+Term                     : ব্যক্তিদের
+Frequency                : 3
+Positions                : 2:1:21 4:3:4 5:5:4 
+Position Weights         : 2,4,1
+Position Weight Document : 7
+
+Index                    : 95
+Term                     : খুঁজে
+Frequency                : 1
+Positions                : 2:1:22 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 96
+Term                     : বের
+Frequency                : 1
+Positions                : 2:1:23 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 97
+Term                     : করার
+Frequency                : 6
+Positions                : 2:1:24 2:2:8 3:5:24 4:3:13 5:5:8 6:1:9 
+Position Weights         : 2,4,2,4,1,1
+Position Weight Document : 14
+
+Index                    : 98
+Term                     : গুরুত্ব
+Frequency                : 2
+Positions                : 2:1:26 2:2:11 
+Position Weights         : 2,4
+Position Weight Document : 6
+
+Index                    : 99
+Term                     : দিয়েছে
+Frequency                : 4
+Positions                : 2:1:27 2:2:12 6:2:12 6:6:6 
+Position Weights         : 2,4,1,1
+Position Weight Document : 8
+
+Index                    : 100
+Term                     : পাশাপাশি
+Frequency                : 1
+Positions                : 2:2:0 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 101
+Term                     : চিকিৎসক
+Frequency                : 1
+Positions                : 2:2:2 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 102
+Term                     : স্বাস্থ্যকর্মীদের
+Frequency                : 1
+Positions                : 2:2:4 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 103
+Term                     : ব্যক্তিগত
+Frequency                : 3
+Positions                : 2:2:5 5:3:1 5:4:5 
+Position Weights         : 4,1,2
+Position Weight Document : 7
+
+Index                    : 104
+Term                     : সুরক্ষা
+Frequency                : 1
+Positions                : 2:2:6 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 105
+Term                     : নিশ্চিত
+Frequency                : 2
+Positions                : 2:2:7 6:2:7 
+Position Weights         : 4,1
+Position Weight Document : 5
+
+Index                    : 106
+Term                     : বিষয়ে
+Frequency                : 3
+Positions                : 2:2:9 5:5:9 6:3:1 
+Position Weights         : 4,1,1
+Position Weight Document : 6
+
+Index                    : 107
+Term                     : সর্বোচ্চ
+Frequency                : 2
+Positions                : 2:2:10 3:5:17 
+Position Weights         : 4,2
+Position Weight Document : 6
+
+Index                    : 108
+Term                     : অবশ্য
+Frequency                : 2
+Positions                : 3:0:0 5:4:0 
+Position Weights         : 4,2
+Position Weight Document : 6
+
+Index                    : 109
+Term                     : শুধু
+Frequency                : 1
+Positions                : 3:0:1 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 110
+Term                     : টেস্টিং
+Frequency                : 1
+Positions                : 3:0:2 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 111
+Term                     : দিয়ে
+Frequency                : 1
+Positions                : 3:0:5 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 112
+Term                     : ছড়িয়ে
+Frequency                : 1
+Positions                : 3:0:7 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 113
+Term                     : পড়া
+Frequency                : 1
+Positions                : 3:0:8 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 114
+Term                     : ঠেকানো
+Frequency                : 1
+Positions                : 3:0:9 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 115
+Term                     : যায়নি
+Frequency                : 1
+Positions                : 3:0:10 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 116
+Term                     : বেসরকারি
+Frequency                : 3
+Positions                : 3:1:1 3:5:5 6:5:5 
+Position Weights         : 2,2,1
+Position Weight Document : 5
+
+Index                    : 117
+Term                     : প্রতিষ্ঠান,
+Frequency                : 1
+Positions                : 3:1:2 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 118
+Term                     : এনজিও
+Frequency                : 1
+Positions                : 3:1:3 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 119
+Term                     : ট্রেড
+Frequency                : 3
+Positions                : 3:1:5 6:0:1 6:1:14 
+Position Weights         : 2,1,1
+Position Weight Document : 4
+
+Index                    : 120
+Term                     : ইউনিয়নসহ
+Frequency                : 1
+Positions                : 3:1:6 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 121
+Term                     : নাগরিক
+Frequency                : 1
+Positions                : 3:1:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 122
+Term                     : সমাজ
+Frequency                : 2
+Positions                : 3:1:8 3:4:8 
+Position Weights         : 2,6
+Position Weight Document : 8
+
+Index                    : 123
+Term                     : নিবিড়ভাবে
+Frequency                : 1
+Positions                : 3:1:9 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 124
+Term                     : পরিস্থিতি
+Frequency                : 1
+Positions                : 3:1:10 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 125
+Term                     : পর্যবেক্ষণ
+Frequency                : 1
+Positions                : 3:1:11 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 126
+Term                     : সরকারের
+Frequency                : 5
+Positions                : 3:2:1 3:3:1 5:0:10 5:5:13 6:3:2 
+Position Weights         : 2,6,1,1,1
+Position Weight Document : 11
+
+Index                    : 127
+Term                     : দায়িত্বশীলতা
+Frequency                : 1
+Positions                : 3:2:2 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 128
+Term                     : জবাবদিহির
+Frequency                : 1
+Positions                : 3:2:4 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 129
+Term                     : দিকে
+Frequency                : 1
+Positions                : 3:2:5 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 130
+Term                     : নজর
+Frequency                : 1
+Positions                : 3:2:6 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 131
+Term                     : রেখেছে
+Frequency                : 3
+Positions                : 3:2:7 5:3:15 6:1:17 
+Position Weights         : 2,1,1
+Position Weight Document : 4
+
+Index                    : 132
+Term                     : ফলে
+Frequency                : 2
+Positions                : 3:3:0 4:0:12 
+Position Weights         : 6,2
+Position Weight Document : 8
+
+Index                    : 133
+Term                     : দায়িত্ব
+Frequency                : 1
+Positions                : 3:3:2 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 134
+Term                     : পালনের
+Frequency                : 1
+Positions                : 3:3:3 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 135
+Term                     : অবহেলার
+Frequency                : 1
+Positions                : 3:3:5 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 136
+Term                     : সুযোগ
+Frequency                : 1
+Positions                : 3:3:6 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 137
+Term                     : কম
+Frequency                : 1
+Positions                : 3:3:7 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 138
+Term                     : ছিল
+Frequency                : 1
+Positions                : 3:3:8 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 139
+Term                     : অর্থাৎ,
+Frequency                : 1
+Positions                : 3:4:0 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 140
+Term                     : সরকারকে
+Frequency                : 2
+Positions                : 3:4:3 6:2:10 
+Position Weights         : 6,1
+Position Weight Document : 7
+
+Index                    : 141
+Term                     : সক্রিয়
+Frequency                : 1
+Positions                : 3:4:4 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 142
+Term                     : করতে
+Frequency                : 5
+Positions                : 3:4:5 4:2:10 5:5:12 6:1:7 6:2:8 
+Position Weights         : 6,6,1,1,1
+Position Weight Document : 15
+
+Index                    : 143
+Term                     : গুরুত্বপূর্ণ
+Frequency                : 1
+Positions                : 3:4:9 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 144
+Term                     : পালন
+Frequency                : 2
+Positions                : 3:4:11 3:6:4 
+Position Weights         : 6,4
+Position Weight Document : 10
+
+Index                    : 145
+Term                     : দ্রুত
+Frequency                : 2
+Positions                : 3:5:1 4:1:11 
+Position Weights         : 2,4
+Position Weight Document : 6
+
+Index                    : 146
+Term                     : সরকারি
+Frequency                : 2
+Positions                : 3:5:2 3:6:6 
+Position Weights         : 2,4
+Position Weight Document : 6
+
+Index                    : 147
+Term                     : প্রযুক্তি
+Frequency                : 1
+Positions                : 3:5:3 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 148
+Term                     : প্রস্তুতকারক
+Frequency                : 1
+Positions                : 3:5:6 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 149
+Term                     : প্রতিষ্ঠানগুলোর
+Frequency                : 1
+Positions                : 3:5:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 150
+Term                     : মাধ্যমে
+Frequency                : 2
+Positions                : 3:5:8 5:0:11 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 151
+Term                     : গুণগতভাবে
+Frequency                : 1
+Positions                : 3:5:9 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 152
+Term                     : উচ্চ
+Frequency                : 1
+Positions                : 3:5:10 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 153
+Term                     : মানসম্পন্ন
+Frequency                : 1
+Positions                : 3:5:11 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 154
+Term                     : কিট
+Frequency                : 1
+Positions                : 3:5:13 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 155
+Term                     : উৎপাদন
+Frequency                : 1
+Positions                : 3:5:14 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 156
+Term                     : দ্রুততার
+Frequency                : 1
+Positions                : 3:5:18 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 157
+Term                     : সঙ্গে
+Frequency                : 4
+Positions                : 3:5:19 5:0:7 5:0:8 6:5:7 
+Position Weights         : 2,1,1,1
+Position Weight Document : 5
+
+Index                    : 158
+Term                     : ব্যাপকসংখ্যক
+Frequency                : 1
+Positions                : 3:5:20 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 159
+Term                     : মানুষের
+Frequency                : 1
+Positions                : 3:5:21 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 160
+Term                     : ব্যবস্থা
+Frequency                : 2
+Positions                : 3:5:25 4:3:14 
+Position Weights         : 2,4
+Position Weight Document : 6
+
+Index                    : 161
+Term                     : গড়ে
+Frequency                : 1
+Positions                : 3:5:26 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 162
+Term                     : তুলেছে
+Frequency                : 1
+Positions                : 3:5:27 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 163
+Term                     : কেন্দ্রীয়
+Frequency                : 1
+Positions                : 3:6:2 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 164
+Term                     : স্বাস্থ্যকেন্দ্রগুলো
+Frequency                : 1
+Positions                : 3:6:7 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 165
+Term                     : সে
+Frequency                : 2
+Positions                : 4:0:3 5:1:0 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 166
+Term                     : দেশে
+Frequency                : 2
+Positions                : 4:0:4 6:4:23 
+Position Weights         : 2,2
+Position Weight Document : 4
+
+Index                    : 167
+Term                     : করোনার
+Frequency                : 1
+Positions                : 4:0:5 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 168
+Term                     : প্রাদুর্ভাবের
+Frequency                : 1
+Positions                : 4:0:6 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 169
+Term                     : একদম
+Frequency                : 1
+Positions                : 4:0:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 170
+Term                     : শুরুতেই
+Frequency                : 1
+Positions                : 4:0:8 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 171
+Term                     : পদক্ষেপ
+Frequency                : 1
+Positions                : 4:0:10 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 172
+Term                     : নেওয়ার
+Frequency                : 1
+Positions                : 4:0:11 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 173
+Term                     : দেশটিতে
+Frequency                : 1
+Positions                : 4:0:13 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 174
+Term                     : পরীক্ষাকেন্দ্রের
+Frequency                : 1
+Positions                : 4:0:15 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 175
+Term                     : সংখ্যা
+Frequency                : 1
+Positions                : 4:0:16 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 176
+Term                     : ৬
+Frequency                : 1
+Positions                : 4:0:17 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 177
+Term                     : শর
+Frequency                : 1
+Positions                : 4:0:18 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 178
+Term                     : বেশি
+Frequency                : 2
+Positions                : 4:0:19 6:0:7 
+Position Weights         : 2,1
+Position Weight Document : 3
+
+Index                    : 179
+Term                     : ছাড়া
+Frequency                : 2
+Positions                : 4:1:1 4:3:1 
+Position Weights         : 4,4
+Position Weight Document : 8
+
+Index                    : 180
+Term                     : ৮০টি
+Frequency                : 1
+Positions                : 4:1:2 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 181
+Term                     : ড্রাইভ-থ্রু
+Frequency                : 1
+Positions                : 4:1:3 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 182
+Term                     : সেন্টার
+Frequency                : 2
+Positions                : 4:1:4 9:0:5 
+Position Weights         : 4,1
+Position Weight Document : 5
+
+Index                    : 183
+Term                     : আছে,
+Frequency                : 1
+Positions                : 4:1:5 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 184
+Term                     : স্বাস্থ্যকর্মীরা
+Frequency                : 1
+Positions                : 4:1:6 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 185
+Term                     : যেখান
+Frequency                : 1
+Positions                : 4:1:7 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 186
+Term                     : থেকে
+Frequency                : 3
+Positions                : 4:1:8 6:3:4 7:0:1 
+Position Weights         : 4,1,1
+Position Weight Document : 6
+
+Index                    : 187
+Term                     : গাড়ি
+Frequency                : 1
+Positions                : 4:1:9 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 188
+Term                     : নিয়ে
+Frequency                : 1
+Positions                : 4:1:10 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 189
+Term                     : সন্দেহভাজন
+Frequency                : 2
+Positions                : 4:1:12 4:3:2 
+Position Weights         : 4,4
+Position Weight Document : 8
+
+Index                    : 190
+Term                     : আক্রান্ত
+Frequency                : 3
+Positions                : 4:1:13 4:3:3 5:5:3 
+Position Weights         : 4,4,1
+Position Weight Document : 9
+
+Index                    : 191
+Term                     : পৌঁছে
+Frequency                : 1
+Positions                : 4:1:16 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 192
+Term                     : গিয়ে
+Frequency                : 1
+Positions                : 4:1:17 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 193
+Term                     : আসেন
+Frequency                : 1
+Positions                : 4:1:20 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 194
+Term                     : এভাবে
+Frequency                : 1
+Positions                : 4:2:0 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 195
+Term                     : প্রতিদিন
+Frequency                : 1
+Positions                : 4:2:4 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 196
+Term                     : ২০
+Frequency                : 1
+Positions                : 4:2:5 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 197
+Term                     : হাজার
+Frequency                : 1
+Positions                : 4:2:6 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 198
+Term                     : লোকের
+Frequency                : 1
+Positions                : 4:2:7 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 199
+Term                     : সক্ষম
+Frequency                : 1
+Positions                : 4:2:11 
+Position Weights         : 6
+Position Weight Document : 6
+
+Index                    : 200
+Term                     : প্রাথমিক
+Frequency                : 1
+Positions                : 4:3:8 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 201
+Term                     : চিকিৎসা
+Frequency                : 1
+Positions                : 4:3:9 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 202
+Term                     : সম্পূর্ণ
+Frequency                : 1
+Positions                : 4:3:10 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 203
+Term                     : বিনা
+Frequency                : 1
+Positions                : 4:3:11 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 204
+Term                     : খরচে
+Frequency                : 1
+Positions                : 4:3:12 
+Position Weights         : 4
+Position Weight Document : 4
+
+Index                    : 205
+Term                     : করা
+Frequency                : 4
+Positions                : 4:3:15 5:0:26 6:3:8 6:4:15 
+Position Weights         : 4,1,1,2
+Position Weight Document : 8
+
+Index                    : 206
+Term                     : হয়েছে
+Frequency                : 3
+Positions                : 4:3:16 5:0:27 6:3:9 
+Position Weights         : 4,1,1
+Position Weight Document : 6
+
+Index                    : 207
+Term                     : কোনো
+Frequency                : 2
+Positions                : 5:0:0 6:4:5 
+Position Weights         : 1,2
+Position Weight Document : 3
+
+Index                    : 208
+Term                     : দেহে
+Frequency                : 1
+Positions                : 5:0:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 209
+Term                     : করোনাভাইরাসের
+Frequency                : 1
+Positions                : 5:0:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 210
+Term                     : শনাক্ত
+Frequency                : 1
+Positions                : 5:0:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 211
+Term                     : হওয়ার
+Frequency                : 1
+Positions                : 5:0:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 212
+Term                     : স্থানীয়
+Frequency                : 1
+Positions                : 5:0:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 213
+Term                     : তাকে
+Frequency                : 3
+Positions                : 5:0:12 6:4:13 6:4:21 
+Position Weights         : 1,2,2
+Position Weight Document : 5
+
+Index                    : 214
+Term                     : কোয়ারেন্টিনে
+Frequency                : 2
+Positions                : 5:0:13 5:1:17 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 215
+Term                     : পাঠানো
+Frequency                : 2
+Positions                : 5:0:14 6:4:25 
+Position Weights         : 1,2
+Position Weight Document : 3
+
+Index                    : 216
+Term                     : হয়েছে;
+Frequency                : 1
+Positions                : 5:0:15 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 217
+Term                     : তার
+Frequency                : 5
+Positions                : 5:0:16 5:0:19 5:1:10 5:1:13 6:4:22 
+Position Weights         : 1,1,1,1,2
+Position Weight Document : 6
+
+Index                    : 218
+Term                     : পরিচয়
+Frequency                : 1
+Positions                : 5:0:17 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 219
+Term                     : সাম্প্রতিক
+Frequency                : 1
+Positions                : 5:0:20 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 220
+Term                     : গমনস্থল
+Frequency                : 1
+Positions                : 5:0:21 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 221
+Term                     : চলাচলের
+Frequency                : 1
+Positions                : 5:0:23 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 222
+Term                     : ইতিহাস
+Frequency                : 1
+Positions                : 5:0:24 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 223
+Term                     : প্রকাশ
+Frequency                : 2
+Positions                : 5:0:25 5:5:7 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 224
+Term                     : কোথায়
+Frequency                : 2
+Positions                : 5:1:1 5:1:2 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 225
+Term                     : গিয়েছিল
+Frequency                : 1
+Positions                : 5:1:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 226
+Term                     : কোন
+Frequency                : 2
+Positions                : 5:1:5 5:1:6 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 227
+Term                     : যানবাহন
+Frequency                : 1
+Positions                : 5:1:7 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 228
+Term                     : ব্যবহার
+Frequency                : 2
+Positions                : 5:1:8 5:3:3 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 229
+Term                     : করেছিল,
+Frequency                : 1
+Positions                : 5:1:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 230
+Term                     : সম্পর্কে
+Frequency                : 1
+Positions                : 5:1:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 231
+Term                     : লোকেরা
+Frequency                : 1
+Positions                : 5:1:16 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 232
+Term                     : যেতে
+Frequency                : 1
+Positions                : 5:1:18 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 233
+Term                     : পেরেছে
+Frequency                : 1
+Positions                : 5:1:19 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 234
+Term                     : ট্রেসিংয়ের
+Frequency                : 1
+Positions                : 5:2:1 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 235
+Term                     : জন্য
+Frequency                : 2
+Positions                : 5:2:2 6:1:10 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 236
+Term                     : কর্তৃপক্ষ
+Frequency                : 1
+Positions                : 5:2:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 237
+Term                     : মোবাইল
+Frequency                : 1
+Positions                : 5:2:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 238
+Term                     : ফোনের
+Frequency                : 1
+Positions                : 5:2:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 239
+Term                     : জিপিএস
+Frequency                : 1
+Positions                : 5:2:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 240
+Term                     : ডেটা,
+Frequency                : 1
+Positions                : 5:2:7 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 241
+Term                     : ক্রেডিট
+Frequency                : 1
+Positions                : 5:2:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 242
+Term                     : কার্ডের
+Frequency                : 1
+Positions                : 5:2:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 243
+Term                     : লেনদেনের
+Frequency                : 1
+Positions                : 5:2:10 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 244
+Term                     : রেকর্ড
+Frequency                : 1
+Positions                : 5:2:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 245
+Term                     : সিসিটিভির
+Frequency                : 1
+Positions                : 5:2:13 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 246
+Term                     : ফুটেজের
+Frequency                : 1
+Positions                : 5:2:14 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 247
+Term                     : নির্ভর
+Frequency                : 1
+Positions                : 5:2:16 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 248
+Term                     : এসব
+Frequency                : 1
+Positions                : 5:3:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 249
+Term                     : উপাত্ত
+Frequency                : 1
+Positions                : 5:3:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 250
+Term                     : কোরিয়ায়
+Frequency                : 1
+Positions                : 5:3:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 251
+Term                     : বৈধ
+Frequency                : 1
+Positions                : 5:3:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 252
+Term                     : এটি
+Frequency                : 1
+Positions                : 5:3:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 253
+Term                     : ভাইরাস
+Frequency                : 1
+Positions                : 5:3:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 254
+Term                     : ঠেকাতে
+Frequency                : 1
+Positions                : 5:3:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 255
+Term                     : অত্যন্ত
+Frequency                : 1
+Positions                : 5:3:12 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 256
+Term                     : সহায়ক
+Frequency                : 1
+Positions                : 5:3:13 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 257
+Term                     : এতে
+Frequency                : 1
+Positions                : 5:4:1 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 258
+Term                     : প্রাইভেসি
+Frequency                : 1
+Positions                : 5:4:2 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 259
+Term                     : একান্ত
+Frequency                : 1
+Positions                : 5:4:4 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 260
+Term                     : নিভৃতি
+Frequency                : 1
+Positions                : 5:4:6 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 261
+Term                     : লঙ্ঘনের
+Frequency                : 1
+Positions                : 5:4:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 262
+Term                     : অভিযোগ
+Frequency                : 1
+Positions                : 5:4:8 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 263
+Term                     : উঠেছে
+Frequency                : 1
+Positions                : 5:4:9 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 264
+Term                     : মানবাধিকার
+Frequency                : 2
+Positions                : 5:5:1 6:2:1 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 265
+Term                     : কমিশন
+Frequency                : 1
+Positions                : 5:5:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 266
+Term                     : নাম-পরিচয়
+Frequency                : 1
+Positions                : 5:5:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 267
+Term                     : জনসমক্ষে
+Frequency                : 1
+Positions                : 5:5:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 268
+Term                     : সাবধানতা
+Frequency                : 1
+Positions                : 5:5:10 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 269
+Term                     : অবলম্বন
+Frequency                : 2
+Positions                : 5:5:11 6:3:7 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 270
+Term                     : প্রতি
+Frequency                : 1
+Positions                : 5:5:14 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 271
+Term                     : অনুরোধ
+Frequency                : 1
+Positions                : 5:5:15 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 272
+Term                     : জানিয়েছে
+Frequency                : 1
+Positions                : 5:5:16 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 273
+Term                     : করোনাযুদ্ধে
+Frequency                : 1
+Positions                : 6:0:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 274
+Term                     : ইউনিয়ন
+Frequency                : 2
+Positions                : 6:0:2 6:1:15 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 275
+Term                     : এনজিওগুলোর
+Frequency                : 1
+Positions                : 6:0:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 276
+Term                     : শ্রমিকেরা
+Frequency                : 1
+Positions                : 6:1:1 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 277
+Term                     : কাজ
+Frequency                : 1
+Positions                : 6:1:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 278
+Term                     : হারিয়েছে,
+Frequency                : 1
+Positions                : 6:1:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 279
+Term                     : তাদের
+Frequency                : 1
+Positions                : 6:1:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 280
+Term                     : ঘরে
+Frequency                : 1
+Positions                : 6:1:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 281
+Term                     : অবস্থান
+Frequency                : 1
+Positions                : 6:1:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 282
+Term                     : সহায়তা
+Frequency                : 1
+Positions                : 6:1:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 283
+Term                     : কোম্পানিকে
+Frequency                : 1
+Positions                : 6:1:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 284
+Term                     : মজুরি
+Frequency                : 1
+Positions                : 6:1:12 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 285
+Term                     : দিতে
+Frequency                : 1
+Positions                : 6:1:13 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 286
+Term                     : মৌলিক
+Frequency                : 1
+Positions                : 6:2:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 287
+Term                     : যাতে
+Frequency                : 1
+Positions                : 6:2:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 288
+Term                     : লঙ্ঘিত
+Frequency                : 1
+Positions                : 6:2:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 289
+Term                     : হয়,
+Frequency                : 1
+Positions                : 6:2:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 290
+Term                     : এনজিওগুলো
+Frequency                : 1
+Positions                : 6:2:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 291
+Term                     : দিকনির্দেশনা
+Frequency                : 1
+Positions                : 6:2:11 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 292
+Term                     : অভিবাসীদের
+Frequency                : 1
+Positions                : 6:3:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 293
+Term                     : দিক
+Frequency                : 1
+Positions                : 6:3:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 294
+Term                     : উদার
+Frequency                : 1
+Positions                : 6:3:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 295
+Term                     : নীতি
+Frequency                : 1
+Positions                : 6:3:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 296
+Term                     : যেমন
+Frequency                : 1
+Positions                : 6:4:0 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 297
+Term                     : ঘোষণা
+Frequency                : 1
+Positions                : 6:4:2 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 298
+Term                     : যদি
+Frequency                : 1
+Positions                : 6:4:4 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 299
+Term                     : অবৈধ
+Frequency                : 1
+Positions                : 6:4:6 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 300
+Term                     : অভিবাসী
+Frequency                : 1
+Positions                : 6:4:7 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 301
+Term                     : করাতে
+Frequency                : 1
+Positions                : 6:4:10 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 302
+Term                     : আসে,
+Frequency                : 1
+Positions                : 6:4:11 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 303
+Term                     : তাহলে
+Frequency                : 1
+Positions                : 6:4:12 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 304
+Term                     : আটক
+Frequency                : 1
+Positions                : 6:4:14 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 305
+Term                     : হবে
+Frequency                : 2
+Positions                : 6:4:16 6:4:26 
+Position Weights         : 2,2
+Position Weight Document : 4
+
+Index                    : 306
+Term                     : কিংবা
+Frequency                : 1
+Positions                : 6:4:18 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 307
+Term                     : পরবর্তী
+Frequency                : 1
+Positions                : 6:4:19 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 308
+Term                     : সময়ে
+Frequency                : 1
+Positions                : 6:4:20 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 309
+Term                     : ফেরত
+Frequency                : 1
+Positions                : 6:4:24 
+Position Weights         : 2
+Position Weight Document : 2
+
+Index                    : 310
+Term                     : বিষয়
+Frequency                : 1
+Positions                : 6:5:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 311
+Term                     : সংস্থাগুলোর
+Frequency                : 1
+Positions                : 6:5:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 312
+Term                     : সমন্বয়
+Frequency                : 1
+Positions                : 6:5:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 313
+Term                     : এগিয়েছে
+Frequency                : 1
+Positions                : 6:5:10 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 314
+Term                     : দুই
+Frequency                : 1
+Positions                : 6:6:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 315
+Term                     : পক্ষের
+Frequency                : 1
+Positions                : 6:6:1 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 316
+Term                     : সদিচ্ছাই
+Frequency                : 1
+Positions                : 6:6:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 317
+Term                     : কাজটিকে
+Frequency                : 1
+Positions                : 6:6:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 318
+Term                     : সহজ
+Frequency                : 1
+Positions                : 6:6:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 319
+Term                     : ইংরেজি
+Frequency                : 1
+Positions                : 7:0:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 320
+Term                     : অনূদিত,
+Frequency                : 1
+Positions                : 7:0:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 321
+Term                     : স্বত্ব:
+Frequency                : 1
+Positions                : 7:0:3 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 322
+Term                     : প্রজেক্ট
+Frequency                : 1
+Positions                : 7:0:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 323
+Term                     : সিন্ডিকেট
+Frequency                : 1
+Positions                : 7:0:5 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 324
+Term                     : মায়োং-হি
+Frequency                : 1
+Positions                : 8:0:0 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 325
+Term                     : কিম
+Frequency                : 1
+Positions                : 8:0:1 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 326
+Term                     : পিপলস
+Frequency                : 1
+Positions                : 9:0:2 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 327
+Term                     : হেলথ
+Frequency                : 2
+Positions                : 9:0:3 9:0:7 
+Position Weights         : 1,1
+Position Weight Document : 2
+
+Index                    : 328
+Term                     : ইনস্টিটিউটের
+Frequency                : 1
+Positions                : 9:0:4 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 329
+Term                     : অব
+Frequency                : 1
+Positions                : 9:0:6 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 330
+Term                     : ইকুইটি
+Frequency                : 1
+Positions                : 9:0:8 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 331
+Term                     : রিসার্চের
+Frequency                : 1
+Positions                : 9:0:9 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 332
+Term                     : পরিচালক
+Frequency                : 1
+Positions                : 9:0:10 
+Position Weights         : 1
+Position Weight Document : 1
+
+Index                    : 333
+Term                     : বিশেষজ্ঞ
+Frequency                : 1
+Positions                : 9:0:13 
+Position Weights         : 1
+Position Weight Document : 1
+
